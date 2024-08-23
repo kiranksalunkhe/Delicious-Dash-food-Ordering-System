@@ -1,0 +1,96 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.container {
+  max-width: 800px;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+table {
+  margin-top: 20px;
+}
+
+.btn-success {
+  width: 100px;
+}
+
+
+
+
+/* Restaurant1.css */
+
+/* Ensure card images are responsive */
+.card-img-top {
+  height: 200px;
+  object-fit: cover;
+}
+
+/* Add shadow to cards for better visual separation */
+.card {
+  border: 1px solid #ddd;
+  border-radius: 0.25rem;
+}
+
+/* Center the mini cart title */
+.mt-4 h4 {
+  text-align: center;
+}
+
+/* Style mini cart list items */
+.list-group-item {
+  font-size: 1rem;
+}
+
+/* Style for the error message */
+.text-danger {
+  color: #dc3545;
+}
+
+/* Add margin between buttons and elements */
+.ms-2 {
+  margin-left: 0.5rem;
+}
+
+.mx-2 {
+  margin: 0 0.5rem;
+}

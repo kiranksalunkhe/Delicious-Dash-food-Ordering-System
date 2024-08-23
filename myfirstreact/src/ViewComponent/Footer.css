@@ -1,0 +1,21 @@
+.footer {
+    background-color: rgb(217, 217, 217);
+}
+
+.footer-content h2 {
+    color: #fff;
+}
+
+.footer-content h5,
+.footer-content p,
+.footer-links a {
+    color: #fff;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
+
+.footer hr {
+    background-color: #fff;
+}
